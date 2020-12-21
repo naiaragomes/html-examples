@@ -1,0 +1,14 @@
+h1{
+    color: #F05B78;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    width: 650px;
+    text-shadow: 1px 1px 1px #4F2D32;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+p{
+    width: 650px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
