@@ -92,6 +92,82 @@ a.button, input.button{
 }
 a.button:hover, input.button:hover{
     background: #31808a;
-    text-decoration: :none;
+    text-decoration: none;
 }
+    img{
+        max-width: 100%;
+        height:auto;
+    }
 /* website layout */
+.header{
+    background: #dee6e3;
+}
+h1.logo{
+    font-weight: 300;
+    color:#31808a;
+    letter-spacing: -2px;
+}
+.extra-content{
+    background: #eaf2f0;
+}
+.footer{
+    background: #1f5658;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 25px;
+}
+.menu li a{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    background: #1f5658;
+    color:#ebebeb;
+}
+ul.news li{
+    clear:both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ul.news li img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+ul.news li h4{
+    margin: -2px 0 5px 0;
+    font-weight: 500;
+}
+ul.news li p{
+    margin:5px 0;
+    font-weight: 300;
+}
+ul.news li p a{
+    font-weight: 500;
+}
+.contact label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.contact input, .contact textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+.contact textarea{
+    height: 150px;
+}
+.contact input.button{
+width: auto;
+}
